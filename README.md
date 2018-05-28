@@ -79,6 +79,14 @@ With the Carcode JavaScript widget toolkit embedded into the page, you’ll be a
 | optOutText | String | Don't worry - you can opt-out by texting STOP when you don't want to receive any more texts from us. | Configure the opt out text below the phone input for sms form |
 | phoneNumberPolicy | String | 'default' | Specify phone number policy. <br><br>For `'edmunds-only'` policy carcode widget will only try to use edmunds.com phone number. If no edmunds.com number, then widget will not work; <br><br>For `'edmunds-first'` policy carcode widget will firstly try to use edmunds.com number, if it exists then no additional actions. If edmunds.com number doesn't exist, then carcode widget will use sales phone number for chat and sales form, and service for service form;<br><br>For `'default'` policy carcode widget will use sales number for chat and sales form, service number for service form. |
 | skipDraggable | Boolean | false | Indicates if carcode widget should not be draggable |
+| buttonText | String | The value configured in widget settings using carcode admin app | Text for default floating widget button |
+| floatingButtonPosition | String | The value configured in widget settings using carcode admin app | Position of default floating widget button. Possible options one of ['bottom right', 'bottom center', 'bottom left', 'side left center', 'side lower left', 'side right center', 'side lower right'] |
+| enableCallOut | Boolean | The value configured in widget settings using carcode admin app | Indicates if carcode widget should append callout popup |
+| callOutDelay | Number | The value configured in widget settings using carcode admin app | Number of seconds until callout popup will be displayed |
+| callOutAgentNamesOption | String | The value configured in widget settings using carcode admin app | Specify agent names used in callout popup. Possible values: <br> ```DISABLED``` - do not show agent names, dealership name only; <br> ```STANDARD``` - show one of predefined names; <br> ```DEALER_AGENT``` - show one of active users from the dealership. |
+| callOutSmsButtonText | String | 'Text Us' | Text for sms button in callout popup |
+| callOutChatButtonText | String | 'Start chat' | Text for chat button in callout popup |
+| callOutFacebookButtonText | String | 'Messenger' | Text for facebook button in callout popup |
 | themeConfiguration | Object | {} | Object with theme configuration for the widget. These settings will override all widget default settings. Please see [next section](#Theme) for more details.|
 
 #### Example of the SDK configuration
@@ -152,6 +160,9 @@ Values for color options should be valid [css color value](https://css-tricks.co
 | scrollBarBackground | Color of scrollbar track |
 | inventoryPrimaryLightColor | Font color of light text elements in inventory search view |
 | inventoryPrimaryDarkColor | Font color of dark text elements in inventory search view |
+| callOutBackgroundButtonColor | Background color of primary button in callout popup. ```backgroundButtonColor``` value is used by default. |
+| callOutButtonColor | Font color of primary button in callout popup. ```buttonColor``` value is used by default. |
+| callOutFontFamily | Font family of text elements in callout popup. ```fontFamily``` value is used by default. |
 
 #### Example of the SDK theme configuration:
 ``` javascript
