@@ -216,8 +216,6 @@ const widget = new CarcodeWidget();
 [closeChat](#-i-closechat-i-)  
 [openFacebook](#-i-openfacebook-i-)  
 [handleChatBack](#-i-handlechatback-i-)  
-[getSalesPhoneNumber](#-i-getSalesPhoneNumber-i-)  
-[getServicePhoneNumber](#-i-getServicePhoneNumber-i-)  
 
 #### <i>init(callback)</i>
 initialize carcode widget. Callback argument will be executed once widget initialized. **This method should be always executed before all actions for manual mode.**  
@@ -331,27 +329,5 @@ widget.init(() => {
     // let's assume that customer clicks on inventory search button
     // if client configured skipHeader = true, then client doesn't have the option to go back
     widget.handleChatBack(); // will handle one back click, as a result inventory search will be closed
-});
-```
-___
-
-#### <i>getSalesPhoneNumber()</i>
-method returns sales phone number that are used by widget to send messages and estabilish a chat connection. Please, note that if you plan to use this method, you should configure manualControl to true through [sdk settings](#widget-settings).  
-Example of usage:
-``` javascript
-const widget = new CarcodeWidget();
-widget.init(() => {
-    const carcodeSalesPhoneNumber = widget.getSalesPhoneNumber(); // get number
-});
-```
-___
-
-#### <i>getServicePhoneNumber()</i>
-method returns service phone number that are used by widget to send service messages. Please, note that if you plan to use this method, you should configure manualControl to true through [sdk settings](#widget-settings).  
-Example of usage:
-``` javascript
-const widget = new CarcodeWidget();
-widget.init(() => {
-    const carcodeServicePhoneNumber = widget.getServicePhoneNumber(); // get number
 });
 ```
