@@ -204,9 +204,21 @@ Example of usage:
 const widget = new CarcodeWidget();
 ```
 
+### Custom events
+[destroy](#-destroy-i-)  
+#### <i>destroy</i>
+generate this event if you do not have carcode widget instance object, but want to remove all widgets on the page.
+Example of usage:
+``` javascript
+var event = new CustomEvent('carcode', { detail: 'destroy' });
+document.dispatchEvent(event);
+```
+___
+
 ### Methods
 
 [init](#-i-init-callback-i-)  
+[destroy](#-i-destroy-i-)  
 [attachSmsWidget](#-i-attachsmswidget-i-)  
 [detachSmsWidget](#-i-detachsmswidget-i-)  
 [openSmsSalesForm](#-i-opensmssalesform-i-)  
@@ -225,6 +237,17 @@ Example of usage:
 ``` javascript
 const widget = new CarcodeWidget();
 widget.init(() => console.log('carcode widget has initialized'));
+```
+___
+
+#### <i>destroy</i>
+remove carcode widget from page and free all taken by widget resources.
+Example of usage:
+``` javascript
+const widget = new CarcodeWidget();
+widget.init(() => {
+    widget.destroy();
+});
 ```
 ___
 
