@@ -87,6 +87,7 @@ With the Carcode JavaScript widget toolkit embedded into the page, you’ll be a
 | callOutSmsButtonText | String | 'Text Us' | Text for sms button in callout popup |
 | callOutChatButtonText | String | 'Start chat' | Text for chat button in callout popup |
 | callOutFacebookButtonText | String | 'Messenger' | Text for facebook button in callout popup |
+| popupButtonsOrder | Array | ['chat', 'facebook', 'sms'] | Order of buttons in callout popup. Array can contain following values: 'chat', 'facebook', 'sms'. Other ones will be skipped. Items included in the widget but missed in popupButtonsOrder array will be added at the end. |
 | themeConfiguration | Object | {} | Object with theme configuration for the widget. These settings will override all widget default settings. Please see [next section](#Theme) for more details.|
 
 #### Example of the SDK configuration
