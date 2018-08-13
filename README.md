@@ -143,6 +143,11 @@ Values for color options should be valid [css color value](https://css-tricks.co
 ##### Options
 | Setting | Description |
 | -------- | -------- |
+| width | The width of carcode default button in pixels. |
+| height | The height of carcode default button in pixels. |
+| buttonBorderRadius | Type of button: '1' - rounded, '2' - squared, '3' - floating,
+| offsetX | Add offset of n pixles of X axis |
+| offsetY | Add offset of n pixels of Y axis |
 | formBackgroundColor | Background color of widget menu, chat, sms form (see also `dotColor`) |
 | formLightBackgroundColor | Background color of light elements in widget menu, chat, sms form |
 | formLightColor | Font color of inside light elements |
@@ -169,6 +174,11 @@ Values for color options should be valid [css color value](https://css-tricks.co
 ``` javascript
 window.__carcode = {
   themeConfiguration: {
+    width: 250,
+    height: 50,
+    buttonBorderRadius: '3',
+    offsetX: 0,
+    offsetY: 0,
     formBackgroundColor: '#f3f3f3',
     formLightBackgroundColor: '#ffffff',
     formLightColor: '#555',
