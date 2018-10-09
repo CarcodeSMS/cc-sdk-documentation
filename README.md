@@ -88,6 +88,7 @@ With the Carcode JavaScript widget toolkit embedded into the page, you’ll be a
 | callOutChatButtonText | String | 'Start chat' | Text for chat button in callout popup |
 | callOutFacebookButtonText | String | 'Messenger' | Text for facebook button in callout popup |
 | popupButtonsOrder | Array | ['chat', 'facebook', 'sms'] | Order of buttons in callout popup. Array can contain following values: 'chat', 'facebook', 'sms'. Other ones will be skipped. Items included in the widget but missed in popupButtonsOrder array will be hidden. Repeated items will be added once. |
+| widgetButtonChannel | String | 'chat_first' | Channel of default widget button. Possible values: <br> `livechat` - Chat is opened by click (widget 2.1 includes Chat only); <br> `sms` - Text Us Form is opened by click (widget 2.1 includes Text Us only); <br> `facebook` - FB Messenger is opened by click (widget 2.1 includes FB Messenger button only); <br> `chat_first` - panel is opened for widget 2.0 (if applicable), Chat First design applied for widget 2.1; <br> `sms_first` - panel is opened for widget 2.0 (if applicable), SMS First design applied for widget 2.1; <br> `facebook_first` - panel is opened for widget 2.0 (if applicable), Facebook First design applied for widget 2.1.|
 | themeConfiguration | Object | {} | Object with theme configuration for the widget. These settings will override all widget default settings. Please see [next section](#Theme) for more details.|
 
 #### Example of the SDK configuration
