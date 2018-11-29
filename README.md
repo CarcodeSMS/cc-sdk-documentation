@@ -41,6 +41,30 @@ Example of custom element to open SMS form:
   data-year="2015" data-status="New" data-widget="sms">Text Us</a>
 ```
 
+#### Override phone numbers
+
+`data-numbers` attribute overrides phone numbers from widget config for sending SMS. Examples below show all formats supported in data-numbers attribute.
+
+Override only sales phone number:
+``` html
+<a class="sms-button" data-numbers="sales=sms://+15551234567">Text Us</a>
+<a class="sms-button" data-numbers="sms://+15551234567">Text Us</a>
+<a class="sms-button" data-numbers="sales=sms:+15551234567">Text Us</a>
+<a class="sms-button" data-numbers="sms:+15551234567">Text Us</a>
+```
+
+Override only service phone number:  
+``` html
+<a class="sms-button" data-numbers="service=sms://+15551234567">Text Us</a>
+<a class="sms-button" data-numbers="service=sms:+15551234567">Text Us</a>
+```
+
+Override both sales and service phone numbers:  
+``` html
+<a class="sms-button" data-numbers="sales=sms://+15551234567|service=sms://+15551234568">Text Us</a>
+<a class="sms-button" data-numbers="sales=sms:+15551234567|service=sms:+15551234568">Text Us</a>
+```
+
 ## Widget settings
 With the Carcode JavaScript widget toolkit embedded into the page, you’ll be able to customize the behavior of your SMS texting button(s) using the global configuration variable `__carcode` introduced into the page. 
 
