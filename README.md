@@ -106,6 +106,7 @@ With the Carcode JavaScript widget toolkit embedded into the page, you’ll be a
 | buttonText | String | The value configured in widget settings using carcode admin app | Text for default floating widget button |
 | floatingButtonPosition | String | The value configured in widget settings using carcode admin app | Position of default floating widget button. Possible options one of ['bottom right', 'bottom center', 'bottom left', 'side left center', 'side lower left', 'side right center', 'side lower right'] |
 | enableCallOut | Boolean | The value configured in widget settings using carcode admin app | Indicates if carcode widget should append callout popup |
+| useGlobalCalloutStatus  | Boolean | false | Indicates if closing of callout popup is remembered for all carcode widgets regardless widget slug |
 | callOutDelay | Number | The value configured in widget settings using carcode admin app | Number of seconds until callout popup will be displayed |
 | callOutAgentNamesOption | String | The value configured in widget settings using carcode admin app | Specify agent names used in callout popup. Possible values: <br> ```DISABLED``` - do not show agent names, dealership name only; <br> ```STANDARD``` - show one of predefined names; <br> ```DEALER_AGENT``` - show one of active users from the dealership. |
 | callOutSmsButtonText | String | 'Text Us' | Text for sms button in callout popup |
