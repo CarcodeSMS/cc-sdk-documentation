@@ -86,7 +86,7 @@ With the Carcode JavaScript widget toolkit embedded into the page, you’ll be a
 | -------- | -------- | -------- | -------- |
 | skipButton | Boolean| false | Indicates if carcode widget should skip the default fixed button or not |
 | sdkWidget | String| 'default' | Indicates which widget should be opened by clicking on SDK button. Possible options one of ['livechat', 'sms', 'facebook'] |
-| sdkButtonClass | String| 'sms-button' | css class that will be used to look up SDK buttons on the page |
+| sdkButtonDefaultClass | String| 'sms-button' | css class that will be used to look up SDK buttons on the page |
 | appendWidgetTo | String | document.body | Id of the container where carcode widget will be rendered |
 | manualControl | Boolean | false | Indicates if carcode widget should automatically init and render to the container |
 | skipHeader | Boolean | false | Indicates if carcode widget should not append all it's headers |
