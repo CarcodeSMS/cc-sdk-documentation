@@ -1,4 +1,4 @@
-![CarCode Multi-Dealer VIN Routing Instructions](/images/image3.png)
+![CarCode Multi-Dealer VIN Routing Instructions](images/image3.png)
 # Multi-Dealer VIN Routing Instructions
 
 The Multi-Dealer VIN Routing feature works by reading the VIN from the data-vin
@@ -10,7 +10,7 @@ The Vin routing feature is enabled via a setting in the CarCode Admin App
 that will be activated when the dealer accounts are provisioned in CarCode
 (handled by the Edmunds team):
 
-![Multi-Dealer VIN Routing setting](/images/image2.png)
+![Multi-Dealer VIN Routing setting](images/image2.png)
 
 To integrate widgets with this capability on a dealer website, you must 
 first integrate the default CarCode widget script into the header tag
@@ -45,7 +45,7 @@ example:
 
 This will automatically inject the button within the div.
 
-![Embedded SDK Button example](/images/image1.png)
+![Embedded SDK Button example](images/image1.png)
 
 The dealer can apply custom styling to the button by reaching out to your
 widgets implementation team, who can manage settings in the CarCode tool
