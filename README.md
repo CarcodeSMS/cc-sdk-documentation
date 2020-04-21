@@ -173,30 +173,66 @@ Values for color options should be valid [css color value](https://css-tricks.co
 | -------- | -------- |
 | width | The width of carcode default button in pixels. |
 | height | The height of carcode default button in pixels. |
-| buttonBorderRadius | Type of button: '1' - rounded, '2' - squared, '3' - floating,
 | offsetX | Add offset of n pixles of X axis |
 | offsetY | Add offset of n pixels of Y axis |
-| formBackgroundColor | Background color of widget menu, chat, sms form (see also `dotColor`) |
-| formLightBackgroundColor | Background color of light elements in widget menu, chat, sms form |
-| formLightColor | Font color of inside light elements |
-| formTextColor | Font color of sms form  |
-| separatorColor | Color of horizontal separators in widget and sms menu |
-| backgroundButtonColor | Primary widget color (in particular used as background color of widget button) |
-| buttonColor | Font color of elements with primary color background (in particular widget button) |
-| fontSize | Font size of widget button, value should be valid [css font-size](https://css-tricks.com/almanac/properties/f/font-size/), default value: '16px' |
-| fontFamily | Font family of all text elements |
-| formButtonBackgroundColor | Background color of submit button in sms form |
-| dotColor| Dots' color in bacground of sms-form |
-| formBoxShadow | Widget shadow, value should be valid [css box-shadow](https://css-tricks.com/snippets/css/css-box-shadow/) |
-| chatReplyMessageBackground | Background color of customer messages in chat view |
-| chatMessageBackground | Background color of dealer messages in chat view |
-| scrollBarColor | Color of scrollbar thumb |
-| scrollBarBackground | Color of scrollbar track |
-| inventoryPrimaryLightColor | Font color of light text elements in inventory search view |
-| inventoryPrimaryDarkColor | Font color of dark text elements in inventory search view |
-| callOutBackgroundButtonColor | Background color of primary button in callout popup. ```backgroundButtonColor``` value is used by default. |
+| buttonColor | Button text color |
+| primaryColor | Background color of floating button |
+| secondaryColor | Secondary widget color |
+| buttonBoxShadow | Box shadow of floating button |
+| fontSize | Font size of button text |
+| fontFamily | Font family for widget |
+| formButtonBackgroundColor | Background color of form button |
+| formHeaderBackgroundColor | Background color of form header |
+| formBackgroundColor | Backgorund color of form |
+| formBoxShadow | Box shadow for form |
 | callOutButtonColor | Font color of primary button in callout popup. ```buttonColor``` value is used by default. |
 | callOutFontFamily | Font family of text elements in callout popup. ```fontFamily``` value is used by default. |
+| calloutBgColor | Background color for callout |
+| callOutBorderRadius | Callout border radius |
+| calloutBubbleBorderRadius | Callout bubble border radius |
+| calloutBubbleBgColor | Bg color of callout bubble |
+| callOutImageBgColor | Bg color of call out image |
+| thanksMessageDescriptionColor | Color of the message on thanks view |
+| termsBackgroundColor | Background color for terms view |
+| chatBackgroundColor | Background color of chat |
+| chatInteractiveOptionColor | Color of chat starters and other interective options |
+| chatMenuOptionColor | Color of chat menu options |
+| chatHeaderSubtitleColor | Color of chat header subtitle |
+| chatInputAreaBackgroundColor | Bg Color of chat input area |
+| chatReplyMessageBackground | Bg Color of chat reply message |
+| chatMessageBackground | Bg color of chat message |
+| cannedMessagesActiveColor | Color of active canned messages |
+| cannedMessagesColor | Color of canned messages |
+| cannedMessagesBorder | Color of canne messages border |
+| textLightColor | Light text color |
+| textDarkerColor | Darker text color |
+| textDarkColor | Dark text color |
+| textDarkestColor | Darkest text color |
+| warningColor | Color of warning message |
+| errorColor | Color of error message |
+| successColor | Color of sucess message |
+| infoColor | Color of info message |
+| separatorColor | Separator color |
+| formTitleColor | Color of form title |
+| inventorySearchTabBackgroundColor | Background color of inventory search tab |
+| inventoriesTabsBgColor | Background color of inventories tabs |
+| smsDepartmentSelectorBgColor | Background color of sms departments selector |
+| smsFormFooterBgColor | Background color of sms form footer |
+| leaseDealsHeaderBgColor | Background color of lease deals header |
+| privacyStatementLinkColor | Color of privacy statement link |
+| privacyStatementTextColor | Color of privacy statement text |
+| disclaimerText | Color of disclaimer text |
+| consentFollowUp | Color of consent follow up text |
+| borderRadiusXs | Border radius extra small |
+| borderRadiusSm | Border radius small |
+| borderRadiusMd | Border radius medium |
+| borderRadiusLg | Border radius large |
+| borderRadiusXlg | Border radius extra large |
+| borderRadiusMlg | Border radius mega large |
+| toolbarBorderRadius | Border radius of toolbar |
+| mainContainerBottomBorderRadius | Bottom border radius of main container |
+| scrollBarColor | Color of scroll bar |
+| scrollBarBackground | Bg color of scroll bar |
 
 #### Example of the SDK theme configuration:
 ``` javascript
