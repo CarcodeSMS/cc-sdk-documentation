@@ -175,7 +175,7 @@ Values for color options should be valid [css color value](https://css-tricks.co
 | height | The height of carcode default button in pixels. |
 | offsetX | Add offset of n pixles of X axis |
 | offsetY | Add offset of n pixels of Y axis |
-| buttonColor | Button text color |
+| buttonTextColor | Button text color |
 | primaryColor | Background color of floating button |
 | secondaryColor | Secondary widget color |
 | buttonBoxShadow | Box shadow of floating button |
@@ -185,7 +185,7 @@ Values for color options should be valid [css color value](https://css-tricks.co
 | formHeaderBackgroundColor | Background color of form header |
 | formBackgroundColor | Backgorund color of form |
 | formBoxShadow | Box shadow for form |
-| callOutButtonColor | Font color of primary button in callout popup. ```buttonColor``` value is used by default. |
+| callOutButtonColor | Font color of primary button in callout popup. ```buttonTextColor``` value is used by default. |
 | callOutFontFamily | Font family of text elements in callout popup. ```fontFamily``` value is used by default. |
 | calloutBgColor | Background color for callout |
 | callOutBorderRadius | Callout border radius |
@@ -249,7 +249,7 @@ window.__carcode = {
     formTextColor: '#999999',
     separatorColor: '#e8ede8',
     backgroundButtonColor: '#007EE5',
-    buttonColor: '#ffffff',
+    buttonTextColor: '#ffffff',
     fontSize: '16px',
     fontFamily: '\'Open Sans\', \'Arial\', \'Helvetica\', \'sans-serif\'',
     formButtonBackgroundColor: '#007EE5',
