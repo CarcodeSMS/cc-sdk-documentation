@@ -185,7 +185,6 @@ Values for color options should be valid [css color value](https://css-tricks.co
 | formHeaderBackgroundColor | Background color of form header |
 | formBackgroundColor | Backgorund color of form |
 | formBoxShadow | Box shadow for form |
-| callOutButtonColor | Font color of primary button in callout popup. ```buttonTextColor``` value is used by default. |
 | callOutFontFamily | Font family of text elements in callout popup. ```fontFamily``` value is used by default. |
 | calloutBgColor | Background color for callout |
 | callOutBorderRadius | Callout border radius |
