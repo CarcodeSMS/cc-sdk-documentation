@@ -109,6 +109,7 @@ With the Carcode JavaScript widget toolkit embedded into the page, you’ll be a
 | useGlobalCalloutStatus  | Boolean | false | Indicates if closing of callout popup is remembered for all carcode widgets regardless widget slug |
 | callOutDelay | Number | The value configured in widget settings using carcode admin app | Number of seconds until callout popup will be displayed |
 | callOutAgentNamesOption | String | The value configured in widget settings using carcode admin app | Specify agent names used in callout popup. Possible values: <br> ```DISABLED``` - do not show agent names, dealership name only; <br> ```STANDARD``` - show one of predefined names; <br> ```DEALER_AGENT``` - show one of active users from the dealership. |
+| callOutDisplayText | String | The value configured in widget settings using carcode admin app | Text which should be displayed on callout popup (supports links in format [link\|www.example.com] and vehicle tags: {vin}, {vehicle_make}, {vehicle_model}, {vehicle_year}) |
 | callOutSmsButtonText | String | 'Text Us' | Text for sms button in callout popup |
 | callOutChatButtonText | String | 'Start chat' | Text for chat button in callout popup |
 | callOutFacebookButtonText | String | 'Messenger' | Text for facebook button in callout popup |
