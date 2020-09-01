@@ -292,6 +292,7 @@ ___
 [destroy](#-i-destroy-i-)  
 [attachSmsWidget](#-i-attachsmswidget-i-)  
 [detachSmsWidget](#-i-detachsmswidget-i-)  
+[openSms](#-i-opensms-i-)  
 [openSmsSalesForm](#-i-opensmssalesform-i-)  
 [openSmsServiceForm](#-i-opensmsserviceform-i-)  
 [openSmsHubForm](#-i-opensmshubform-i-)  
@@ -341,6 +342,17 @@ const widget = new CarcodeWidget();
 widget.init(() => {
     widget.attachSmsWidget(); // sms form will be attached to the widget container
     widget.detachSmsWidget(); // sms form will be removed from the widget container
+});
+```
+___
+
+#### <i>openSms()</i>
+trigger openning of the sms channel
+Example of usage:
+``` javascript
+const widget = new CarcodeWidget();
+widget.init(() => {
+    widget.openSms(); // open sms channel
 });
 ```
 ___
