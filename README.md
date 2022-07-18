@@ -265,6 +265,42 @@ window.__carcode = {
 };
 ```
 
+### Settings for two widgets on one page
+To separate settings you should specify `data-container-id` in embedded code
+```html
+ <script
+      data-container-id="widget1"
+      src="{path_to_a_widget}.js"
+      async
+      defer>
+    </script>
+    
+    <script
+      data-container-id="widget2"
+      src="{path_to_a_widget}.js"
+      async
+      defer>
+    </script>
+```
+
+In the settings block, you can use the id from `data-container-id` to set specific options for a certain widget.
+
+If the setting is not specified for a certain widget, it will be taken from the common settings
+
+(like skipButton in this example)
+```javascript
+    const carcodeOptions = {
+      skipButton: false,
+      widget1: {
+        floatingButtonPosition: 'bottom right'
+      },
+      widget2: {
+        floatingButtonPosition: 'bottom left'
+      }   
+    };
+```
+
+
 ## Public API
 
 ### Constructor
