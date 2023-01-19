@@ -497,3 +497,22 @@ widget.init(() => {
     const carcodeServicePhoneNumber = widget.getServicePhoneNumber(); // get number
 });
 ```
+
+## Custom Events
+
+The table below contains the custom events that the widget fires.
+
+| Event Name | Details |
+| ----------------------- | ---------------------------------- |
+| edm-carcode-initialized | Fires when the widget initializes. |
+
+
+### Listening For Events
+
+To listen for custom events from the widget, add the following code:
+
+```javascript
+document.addEventListener('custom-event-name', (data) => {
+  console.log('callback when custom event fires');
+});
+```
