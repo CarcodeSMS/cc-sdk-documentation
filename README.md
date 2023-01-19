@@ -5,6 +5,7 @@
 * [Widget settings](#widget-settings)
 * [Style settings](#style-settings)
 * [Public API](#public-api)
+* [Widget Custom Events](#widget-custom-events)
 
 ## Getting started
 
@@ -498,7 +499,7 @@ widget.init(() => {
 });
 ```
 
-## Custom Events
+## Widget Custom Events
 
 The table below contains the custom events that the widget fires.
 
