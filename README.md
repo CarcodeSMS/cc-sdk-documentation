@@ -5,6 +5,7 @@
 * [Widget settings](#widget-settings)
 * [Style settings](#style-settings)
 * [Public API](#public-api)
+* [Widget Custom Events](#widget-custom-events)
 
 ## Getting started
 
@@ -495,5 +496,24 @@ Example of usage:
 const widget = new CarcodeWidget();
 widget.init(() => {
     const carcodeServicePhoneNumber = widget.getServicePhoneNumber(); // get number
+});
+```
+
+## Widget Custom Events
+
+The table below contains the custom events that the widget fires.
+
+| Event Name | Details |
+| ----------------------- | ---------------------------------- |
+| edm-carcode-initialized | Fires when the widget initializes. |
+
+
+### Listening For Events
+
+To listen for custom events from the widget, add the following code:
+
+```javascript
+document.addEventListener('custom-event-name', (data) => {
+  console.log('callback when custom event fires');
 });
 ```
