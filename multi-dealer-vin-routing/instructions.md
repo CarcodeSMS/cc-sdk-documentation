@@ -74,3 +74,26 @@ example:
 </a>
 ```
 
+**Alternative way for lead routing to dealership**
+
+You can specify a CDD ID in the `data-dealer` attribute.
+When the attribute is specified, the inquiry will be routed to that dealer in CC if the CDD ID is matched.  
+Otherwise, the standard VIN-routing mechanism (based on the VIN) will be used.
+
+
+<pre>
+    <code>
+    &lt;a 
+        class="sms-button"
+        href="#"
+        data-make="[MAKE]"
+        data-model="[MODEL]"
+        data-vin="[VIN_CODE]"
+        data-year="[YEAR]"
+        data-status="[NEW_OR_USED]"
+        <b><i>data-dealer="[DEALER_ROOF_TOP_ID]"</i></b>
+    &gt;
+        Call to Action
+    &lt;/a&gt;
+    </code>
+</pre>
