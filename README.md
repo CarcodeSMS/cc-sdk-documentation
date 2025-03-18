@@ -34,6 +34,8 @@ You can specify which widget should be opened by clicking on SDK button using  `
 * 'sms'
 * 'facebook'
 
+> The department for an sms widget can be set directly by passinig `sms-sales` or `sms-service` to the `data-widget` attribute.
+
 Example of custom element to open SMS form:
 
 ``` html
