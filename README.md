@@ -9,8 +9,6 @@
 
 ## Getting started
 
-[Default SDK instruction](https://docs.google.com/document/d/11WVvjKUNsnZx3BnDH0Ttav-ac8mesgU3U7QZovGaKSA/edit)
-
 To get started with the Carcode widget SDK, first go to your dealer settings in the Carcode dashboard to grab your "Default Widget Embed Code" (or create a new configured widget to get a new embed code). The embed code will have the format 
 
 ``` html
